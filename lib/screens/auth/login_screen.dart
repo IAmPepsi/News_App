@@ -55,7 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
               CustomTextFormField(
                 title: 'Email',
                 controller: _email,
-                hint: 'test@test.com',
+                hint: 'Email',
                 validator: (String? value) => CustomValidator.email(value),
                 autoFocus: true,
               ),

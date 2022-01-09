@@ -35,7 +35,7 @@ Jeder Ordner enthält Klassen, die bestimmte Aufgaben ausführen.
 
 👤 **Mohammad Aljunaedi**
 👤 **Mohammad Ayham Nashar**
-👤 **Mohamad Baker**
+👤 **Mohamad Bakir**
 
 
 - Gitlab: [@News-App](https://gitlab.iue.fh-kiel.de/mob_sp_ws_2021/mob_sp_ws_2021.git)
