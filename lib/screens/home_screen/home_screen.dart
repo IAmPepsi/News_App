@@ -1,6 +1,7 @@
 import 'package:firebase_api_task/database/aith_methods.dart';
 import 'package:firebase_api_task/screens/auth/login_screen.dart';
 import 'package:firebase_api_task/screens/news_screen/news_screen.dart';
+import 'package:firebase_api_task/utilities/change_theme_widget.dart';
 import 'package:firebase_api_task/widgets/custom_textformfield.dart';
 import 'package:firebase_api_task/widgets/custom_toast.dart';
 import 'package:flutter/material.dart';
@@ -43,6 +44,13 @@ class _HomeScreenState extends State<HomeScreen> {
               backgroundColor: Colors.transparent,
               elevation: 0,
               iconTheme: IconThemeData(color: Theme.of(context).primaryColor),
+              actions: const [
+                Icon(
+                  Icons.brightness_4_rounded,
+                  size: 30.0,
+                ),
+                ChangeThemeButtonWidget(),
+              ],
             ),
             drawer: const CustomDrawer(),
             body: Padding(
@@ -119,6 +127,9 @@ class _HomeScreenState extends State<HomeScreen> {
           return Scaffold(
             appBar: AppBar(
               backgroundColor: Colors.transparent,
+              actions: [
+                ChangeThemeButtonWidget(),
+              ],
               elevation: 0,
               title: Row(
                 children: <Widget>[
